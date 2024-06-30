@@ -5,7 +5,7 @@ import axios from 'axios';
 import {Modal, ModalBody, ModalFooter, ModalHeader} from 'reactstrap';
 
 function App() {
-  const baseUrl="http://localhost:5122/api/gestores";
+  const baseUrl="https://localhost:44303/api/gestores";
   const [data, setData]=useState([]);
   const [modalEditar, setModalEditar]=useState(false);
   const [modalInsertar, setModalInsertar]=useState(false);
